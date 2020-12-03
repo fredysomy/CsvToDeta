@@ -19,7 +19,7 @@ setup(
     long_description=readme,
     long_description_content_type="text/markdown",
     
-    version="1.2.0",
+    version="1.3.0",
     keywords="csv,database,json",
     name="csvtodeta",
     packages=['src'],
