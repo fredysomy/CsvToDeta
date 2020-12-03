@@ -37,7 +37,7 @@ succesfully uploaded n data to DETABASE_NAME Base
 
 #### Example
 
-* Data of csv file (sample) :
+* Data of deta.csv file (sample) :
 
 ``` 
 name,age
@@ -48,7 +48,7 @@ mannu,34
 
 
 ```python
-$ csvtodeta --id 45345dhsgh3rjdf2ur34hhwf --path path/to/csv.csv --db detabasename
+$ csvtodeta --id 45345dhsgh3rjdf2ur34hhwf --path src/deta.csv --db detabasename
 Reading data from src/deta.csv
 Uploaded {'name': 'fredy', 'age': '34'}
 Uploaded {'name': 'god', 'age': '34345345'}
