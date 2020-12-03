@@ -56,5 +56,8 @@ Uploaded {'name': 'maanu', 'age': '34'}
 succesfully uploaded 3 data to detabasename Base
 
 ```   
+#### Result
+![result](https://raw.githubusercontent.com/fredysomy/CsvToDeta/main/images/Screenshot_20201204-000048~2.png)
 
+***
 
