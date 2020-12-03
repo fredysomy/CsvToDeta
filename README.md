@@ -19,14 +19,6 @@
    * Database name in Deta
 
 
-* Data of csv file (sample) :
-
-``` 
-name,age
-fredy,34
-god,34345345
-mannu,34
-```
 
 ***
 #### Use
@@ -44,6 +36,17 @@ succesfully uploaded n data to DETABASE_NAME Base
 
 
 #### Example
+
+* Data of csv file (sample) :
+
+``` 
+name,age
+fredy,34
+god,34345345
+mannu,34
+```
+
+
 ```python
 $ csvtodeta --id 45345dhsgh3rjdf2ur34hhwf --path path/to/csv.csv --db detabasename
 Reading data from src/deta.csv
@@ -51,6 +54,7 @@ Uploaded {'name': 'fredy', 'age': '34'}
 Uploaded {'name': 'god', 'age': '34345345'}
 Uploaded {'name': 'maanu', 'age': '34'}
 succesfully uploaded 3 data to detabasename Base
+
 ```   
 
 
